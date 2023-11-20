@@ -1,0 +1,669 @@
+[2023-11-19 13:08:14] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:08:14] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2023-11-19 13:08:15] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:08:15] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:08:16] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:08:16] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:08:19] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:08:19] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2023-11-19 13:08:24] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:08:24] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2023-11-19 13:08:29] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:08:29] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2023-11-19 13:09:42] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:42] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:42] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:42] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:43] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:43] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:43] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:09:43] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2023-11-19 13:09:43] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:09:43] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2023-11-19 13:09:44] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:44] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:44] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:09:44] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2023-11-19 13:09:48] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:48] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:49] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:09:49] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2023-11-19 13:09:49] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:49] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:49] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:49] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:50] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:50] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:50] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:50] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:50] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:50] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:50] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:50] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:50] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:50] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:09:54] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:09:54] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2023-11-19 13:10:16] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:10:16] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:10:17] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:10:17] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#7 /home/stella/stella/astrocommerce/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#8 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#9 {main}
+"} 
+[2023-11-19 13:10:19] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:10:19] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2023-11-19 13:10:24] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(665): Illuminate\\Log\\LogManager->driver()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-11-19 13:10:24] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/stella/stella/astrocommerce/vendor/symfony/finder/Finder.php:640)
+[stacktrace]
+#0 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/stella/stella/astrocommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
