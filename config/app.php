@@ -156,18 +156,8 @@ return [
     */
 
     'providers' => ServiceProvider::defaultProviders()->merge([
-        /*
-         * Package Service Providers...
-         */
-
-        /*
-         * Application Service Providers...
-         */
-        AstroCommerce\Providers\AppServiceProvider::class,
-        AstroCommerce\Providers\AuthServiceProvider::class,
-        // AstroCommerce\Providers\BroadcastServiceProvider::class,
-        AstroCommerce\Providers\EventServiceProvider::class,
-        AstroCommerce\Providers\RouteServiceProvider::class,
+        AstroCommerce\Api\Rest\RestProvider::class,
+        AstroCommerce\Api\Web\WebProvider::class,
     ])->toArray(),
 
     /*

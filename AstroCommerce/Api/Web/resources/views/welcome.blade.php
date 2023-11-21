@@ -48,11 +48,11 @@
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">{{ $user->GetId()->Value() }}</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white"> 123123 </h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    UserName : {{ $user->GetUserName() }} <br>
-                                    Email : {{ $user->GetEmail() }}
+                                    UserName : 2414123 <br>
+                                    Email : 123123
                                 </p>
                             </div>
 

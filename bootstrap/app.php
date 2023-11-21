@@ -11,6 +11,9 @@
 |
 */
 
+
+
+
 class Application extends Illuminate\Foundation\Application {
 
     public function path($path = '')
@@ -26,14 +29,13 @@ class Application extends Illuminate\Foundation\Application {
         return $this->path.DIRECTORY_SEPARATOR.'Api/Web/resources'.($path ?  DIRECTORY_SEPARATOR. $path :  DIRECTORY_SEPARATOR. "resources" );
     }
 
-  
+
 }
 
 
 $app = new Application(
     realpath(__DIR__.'/../')
 );
-
 
 /*
 |--------------------------------------------------------------------------

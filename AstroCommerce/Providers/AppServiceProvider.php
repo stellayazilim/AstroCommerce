@@ -11,7 +11,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->register(\AstroCommerce\Api\Rest\RestProvider::class);
+        $this->app->register(\AstroCommerce\Api\Web\WebProvider::class);
     }
 
     /**

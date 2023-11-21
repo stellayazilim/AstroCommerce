@@ -3,18 +3,15 @@
 namespace AstroCommerce\Domain\User;
 
 use AstroCommerce\Domain\User\ValueObjects\UserId;
-use Ramsey\Uuid\Uuid;
 
 
 class User {
 
-    private readonly UserId $id;
+    public readonly UserId $id;
 
-    private string $userName;
+    public string $password;
 
-    private string $password;
-
-    private string $email;
+    public string $email;
 
 
     /**
@@ -22,19 +19,16 @@ class User {
      * that ommit construct new user 
      * with new User()
      *
-     * @param UserId $id user id value object, must be immutable
-     * @param string $userName
+     * @param UserId $id
      * @param string $password
      * @param string $email
      */
     private function __construct(
         UserId $id,
-        string $userName,
+        string $email,
         string $password,
-        string $email
     ) { 
         $this->id = $id;
-        $this->userName = $userName;
         $this->password = $password;
         $this->email = $email; 
     }
@@ -49,46 +43,13 @@ class User {
      * @return User Returns new User 
      */
     public static function CreateNew(
-        string $userName,
+        string $email,
         string $password,
-        string $email
     ): User {
         return new self(
             UserId::GenerateUnique(),
-            $userName,
-            $password,
-            $email
+            $email,
+            $password
         );
     }
-
-
-    public function GetId(): UserId {
-        return $this->id;
-    }
-
-    public function GetUserName(): string { 
-        return $this->userName;
-    }
-
-
-    public function SetUserName(string $value) {
-        $this->userName = $value;
-    }
-
-    public function GetPassword(): string {
-        return $this->password;
-    }
-
-    public function SetPassword(string $value) {  
-        $this->password = $value; 
-    }
-
-    public function GetEmail(): string {
-        return $this->email;
-    }
-
-    public function SetEmail (string $value) {
-        $this->email = $value;
-    }
-
 }

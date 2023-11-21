@@ -6,7 +6,7 @@ use AstroCommerce\Contracts\Common\Errors\ValidationException;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Contracts\Validation\Validator;
 
-class LoginRequest extends FormRequest{
+class RegisterRequest extends FormRequest{
     public function authorize() {
         return true;
     }
@@ -14,6 +14,7 @@ class LoginRequest extends FormRequest{
     public function rules() {
         return [
             "email"=> "required|email",
+            "password"=> "required",
         ];
     }
 

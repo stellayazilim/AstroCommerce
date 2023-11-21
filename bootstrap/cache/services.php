@@ -29,11 +29,10 @@
     25 => 'Carbon\\Laravel\\ServiceProvider',
     26 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     27 => 'Termwind\\Laravel\\TermwindServiceProvider',
-    28 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
-    29 => 'AstroCommerce\\Providers\\AppServiceProvider',
-    30 => 'AstroCommerce\\Providers\\AuthServiceProvider',
-    31 => 'AstroCommerce\\Providers\\EventServiceProvider',
-    32 => 'AstroCommerce\\Providers\\RouteServiceProvider',
+    28 => 'Spatie\\LaravelData\\LaravelDataServiceProvider',
+    29 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
+    30 => 'AstroCommerce\\Api\\Rest\\RestProvider',
+    31 => 'AstroCommerce\\Api\\Web\\WebProvider',
   ),
   'eager' => 
   array (
@@ -51,11 +50,10 @@
     11 => 'Carbon\\Laravel\\ServiceProvider',
     12 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     13 => 'Termwind\\Laravel\\TermwindServiceProvider',
-    14 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
-    15 => 'AstroCommerce\\Providers\\AppServiceProvider',
-    16 => 'AstroCommerce\\Providers\\AuthServiceProvider',
-    17 => 'AstroCommerce\\Providers\\EventServiceProvider',
-    18 => 'AstroCommerce\\Providers\\RouteServiceProvider',
+    14 => 'Spatie\\LaravelData\\LaravelDataServiceProvider',
+    15 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
+    16 => 'AstroCommerce\\Api\\Rest\\RestProvider',
+    17 => 'AstroCommerce\\Api\\Web\\WebProvider',
   ),
   'deferred' => 
   array (
