@@ -18,6 +18,9 @@ class RegisterEventHandler
     {
 
         $user = User::CreateNew(
+            $event->event->firstName,
+            $event->event->lastName,
+            $event->event->phone,
             $event->event->email,
             $event->event->password,
         );

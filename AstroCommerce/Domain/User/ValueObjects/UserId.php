@@ -12,7 +12,7 @@ class UserId extends ValueObject {
     private UuidInterface $value;
     
 
-    private function __construct(UuidInterface $value) {
+    public function __construct(UuidInterface $value) {
       $this->value = $value;
     }
 

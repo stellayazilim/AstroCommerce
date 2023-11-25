@@ -21,6 +21,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-// auth routeras
+// auth routes
 Route::post('/auth/register', [\AstroCommerce\Api\Rest\Controllers\Controller::class,'Register']);
 Route::post('/auth/login', [\AstroCommerce\Api\Rest\Controllers\Controller::class,'Login']);
+
+// user routes
+Route::get('/users', [\AstroCommerce\Api\Rest\Controllers\UserController::class,'List']);
